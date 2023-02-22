@@ -37,7 +37,7 @@ jobs:
       with:
         solution-file: out/exported/ALMLab.zip
         solution-folder: out/solutions/ALMLab
-        solution-type: 'Managed'
+        solution-type: 'Unmanaged'
         overwrite-files: true
 
     - name: branch-solution, prepare it for a PullRequest
