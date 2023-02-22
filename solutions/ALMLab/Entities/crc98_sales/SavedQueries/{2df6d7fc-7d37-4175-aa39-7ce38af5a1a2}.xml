@@ -6,10 +6,10 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{58e4def5-e9a9-450f-bd5b-a4c14047b2f0}</savedqueryid>
+    <savedqueryid>{2df6d7fc-7d37-4175-aa39-7ce38af5a1a2}</savedqueryid>
     <layoutxml>
       <grid name="resultset" jump="crc98_name" select="1" icon="1" preview="1">
-        <row name="result" id="crc98_akhiltest123id">
+        <row name="result" id="crc98_salesid">
           <cell name="crc98_name" width="300" />
           <cell name="createdon" width="125" />
         </row>
@@ -18,8 +18,8 @@
     <querytype>1</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="crc98_akhiltest123">
-          <attribute name="crc98_akhiltest123id" />
+        <entity name="crc98_sales">
+          <attribute name="crc98_salesid" />
           <attribute name="crc98_name" />
           <attribute name="createdon" />
           <order attribute="crc98_name" descending="false" />
@@ -28,7 +28,7 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="akhiltest123 Advanced Find View" languagecode="1033" />
+      <LocalizedName description="sales Advanced Find View" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

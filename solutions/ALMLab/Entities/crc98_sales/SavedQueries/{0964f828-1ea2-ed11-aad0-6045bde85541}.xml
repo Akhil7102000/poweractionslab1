@@ -6,12 +6,12 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{d784e33b-c1b2-ed11-9883-6045bde85541}</savedqueryid>
+    <savedqueryid>{0964f828-1ea2-ed11-aad0-6045bde85541}</savedqueryid>
     <querytype>8192</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical" output-format="xml-platform">
-        <entity name="crc98_akhiltest123">
-          <attribute name="crc98_akhiltest123id" />
+        <entity name="crc98_sales">
+          <attribute name="crc98_salesid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
             <condition attribute="ownerid" operator="eq-userid" />
@@ -21,10 +21,10 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My akhiltest123S" languagecode="1033" />
+      <LocalizedName description="My sales" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Active akhiltest123S owned by me" languagecode="1033" />
+      <Description description="Active sales owned by me" languagecode="1033" />
     </Descriptions>
   </savedquery>
 </savedqueries>
